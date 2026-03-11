@@ -1,6 +1,6 @@
 # Skill_repo
 
-This repository is a **curated collection of "agent skills" and platform‑design guidelines** that I use when "vibe coding" with AI assistants. Many of the skills are copied or updated from various sources, particularly those found on https://skills.sh/. Each skill encapsulates knowledge about a specific platform or framework (e.g. Android, macOS, Astro, web, visionOS) and is written in a structured markdown format that can be loaded by AI agents to make them immediately productive.
+This repository is a **curated collection of "agent skills" and platform‑design guidelines** that I use when "vibe coding" or performing tasks with AI assistants. Some of the skills are created by your's truly and many are copied or updated from various sources, particularly those found on https://skills.sh/. Each skill encapsulates knowledge about a specific platform or framework (e.g. Android, macOS, Astro, web, visionOS) and is written in a structured markdown format that can be loaded by AI agents to make them immediately productive.
 
 ## Purpose
 
