@@ -26,12 +26,23 @@ This repository is a **curated collection of "agent skills" and platform‑desig
 * **metadata.json** – Lightweight metadata about the skill version, author, references, and an abstract. Useful for tracking and automation.
 * **rules/** – Some platforms split the long SKILL into smaller rule files (often `_sections.md`) so agents can load only the relevant subset.
 
-## Platforms included
+## Available Skills, Platforms, and Modes
 
-- Android (Material Design 3)
-- iOS, iPadOS, macOS, tvOS, watchOS, visionOS (Apple Human Interface Guidelines variants)
-- Web (WCAG, responsive design)
-- Astro framework (islands, content collections, SSR/SSG)
+The repository currently provides the following agent skills, platforms, and communication modes. Each skill encapsulates specific knowledge to make an AI assistant immediately productive and compliant with platform standards:
+
+1. **`frontend-design`**: Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics.
+2. **`astro-framework`**: Comprehensive Astro framework development guide (SSG, SSR, routing, images, islands architecture, content collections).
+3. **`create-presentation`**: Create professional, visually appealing PowerPoint presentations using Python (`python-pptx`) complete with theming and morph transitions.
+4. **Apple Ecosystem (HIG)**:
+   - **`ios`**: iPhone UI, Dynamic Type, Dark Mode.
+   - **`ipados`**: Split View, Stage Manager, sidebars.
+   - **`macos`**: SwiftUI/AppKit, menu bars, window management.
+   - **`watchos`**: Glanceable interfaces, Digital Crown.
+   - **`tvos`**: 10-foot UI, focus-based navigation, Siri Remote.
+   - **`visionos`**: RealityKit, spatial computing, mixed reality.
+5. **`android`**: Material Design 3, Jetpack Compose, dynamic color.
+6. **`web`**: Web platform design, WCAG compliance, web components, responsive layouts.
+7. **`caveman`**: Ultra-compressed communication mode. Slash token usage by ~75% while keeping full technical accuracy.
 
 You can explore any of the directories under `skills/` to see examples of the format.
 
